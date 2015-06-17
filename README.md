@@ -6,3 +6,10 @@ Making new JS api's available to older browsers.
 
 * ClassList
 * Events (using addEventListener for IE)
+
+## Install
+
+``` javascript
+  npm install polyfill
+
+```
