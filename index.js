@@ -1,4 +1,4 @@
-require('./polyfill/classList.js')();
-require('./polyfill/events.js')();
+require('./polyfills/classList.js')();
+require('./polyfills/events.js')();
 
 module.exports = {}
