@@ -10,6 +10,11 @@ Making new JS api's available to older browsers.
 ## Install
 
 ``` javascript
-  npm install polyfill
+  npm install mrp-polyfill
 
+```
+
+## usage
+``` javascript
+  require('mrp-polyfil');
 ```
