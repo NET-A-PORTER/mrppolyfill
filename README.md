@@ -16,5 +16,5 @@ Making new JS api's available to older browsers.
 
 ## usage
 ``` javascript
-  require('mrp-polyfil');
+  require('mrp-polyfill');
 ```
