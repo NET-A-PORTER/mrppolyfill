@@ -1,4 +1,4 @@
-# js-polyfill
+# mrppolyfill [![Circle CI](https://circleci.com/gh/NET-A-PORTER/mrpjspolyfill/tree/master.svg?style=svg)](https://circleci.com/gh/NET-A-PORTER/mrpjspolyfill/tree/master)
 
 Making new JS api's available to older browsers.
 
@@ -10,11 +10,11 @@ Making new JS api's available to older browsers.
 ## Install
 
 ``` javascript
-  npm install mrp-polyfill
+  npm install mrppolyfill
 
 ```
 
 ## usage
 ``` javascript
-  require('mrp-polyfill');
+  require('mrppolyfill');
 ```
