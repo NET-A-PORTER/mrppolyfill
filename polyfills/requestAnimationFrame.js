@@ -1,6 +1,6 @@
 // requestAnimationFrame https://gist.github.com/paulirish/1579671
 
-module.exports = (function() {
+module.exports = function() {
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
     for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
@@ -23,4 +23,4 @@ module.exports = (function() {
         window.cancelAnimationFrame = function(id) {
             clearTimeout(id);
         };
-}());
+};
