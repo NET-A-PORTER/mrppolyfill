@@ -1,11 +1,9 @@
 // althought Microsoft implments CustomEvent, the implementation differs to webkit.
 
-
-
 module.exports = function() {
   var ua = window.navigator.userAgent;
 
-  if(ua.indexOf('MSIE') > -1 || ua.indexOf('Trident') > -1 || ua.indexOf('Edge') > -1) {
+  if(ua.indexOf('MSIE') > -1 || ua.indexOf('Trident') > -1 || ua.indexOf('Edge') > -1 || !window.CustomEvent) {
 
     CustomEvent.prototype = window.Event.prototype;
     window.CustomEvent = function( event, params ) {
